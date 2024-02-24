@@ -53,8 +53,7 @@ pre-commit = ">=3.6.0,<3.7"
 ruff = ">=0.1.11,<0.2"
 
 [pypi-dependencies]
-stargazer = ">=0.0.6"
-# marginaleffects = ">=0.0.8" # TODO: marginaleffects fails to resolve because of numpy
-# pyfixest = ">=0.15" # TODO: pyfixest fails to resolve becouse of numba
-regtabletotext = ">=0.0.12"
-binsreg = ">=2.1"
+stargazer = "*"
+regtabletotext = "*"
+binsreg = "*"
+pyfixest = "*"

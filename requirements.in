@@ -1,0 +1,48 @@
+#python = ">=3.9,<4.0"
+duckdb-engine
+mimesis
+pandas
+polars
+pyarrow
+
+# data visualization
+altair
+seaborn
+arviz
+binsreg
+
+# tables
+great_tables
+marginaleffects
+regtabletotext
+
+# econometrics
+econml
+linearmodels
+statsforecast
+statsmodels
+stargazer
+pyfixest
+
+# machine learning
+lightgbm
+mapie
+xgboost
+scikit-learn
+
+# causal ml
+causalpy
+dowhy
+
+# bayesian
+bambi
+pymc
+
+# notebooks
+jupysql
+jupyterlab
+jupytext
+
+# dev
+pre-commit
+ruff
