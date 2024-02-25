@@ -43,6 +43,9 @@ jupysql
 jupyterlab
 jupytext
 
+# data
+causaldata
+
 # dev
 pre-commit
 ruff
