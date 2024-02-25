@@ -11,11 +11,14 @@ install-uv:
 install-pixi:
 	curl -LsSf https://pixi.sh/install.sh | bash
 
-update-uv:
+# Update python requirements
+update-requirements:
 	uv pip compile requirements.in -o requirements.txt
 
+# Create virtual environment
 venv:
 	uv venv
 
+# Install requirements
 install-dev:
 	uv pip install -r requirements.txt
